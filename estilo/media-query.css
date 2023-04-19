@@ -110,8 +110,8 @@
     width: 100%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(1fr);
-    grid-column-gap: 50px;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 50px;
 }
 .features{
     display: flex;
